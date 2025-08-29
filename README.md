@@ -1,20 +1,8 @@
 # stable-pretraining
 
-[![Documentation](https://img.shields.io/badge/Documentation-blue.svg)](https://rbalestr-lab.github.io/stable-pretraining.github.io/dev/)
-[![Benchmarks](https://img.shields.io/badge/Benchmarks-blue.svg)](https://github.com/rbalestr-lab/stable-pretraining/tree/main/benchmarks)
-[![Test Status](https://github.com/rbalestr-lab/stable-pretraining/actions/workflows/testing.yml/badge.svg)](https://github.com/rbalestr-lab/stable-pretraining/actions/workflows/testing.yml)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/rbalestr-lab/stable-pretraining/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/rbalestr-lab/stable-pretraining/tree/main)
-[![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![WandB](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/site)
-
-
 AI is moving beyond labels. Today's models learn through **self-supervision** and **multimodal alignment**, extracting knowledge from raw data to build general-purpose representations that work across tasks. These foundation models are then deployed at scale, often after finetuning, to solve tasks in zero or few shot.
 
 `stable-pretraining` is a PyTorch framework built on top of Lightning for this new paradigm. What sets us apart is **real-time visibility into training quality** through extensive logging and monitoring. Our callback ecosystem (`OnlineProbe`, `OnlineKNN`, `RankMe`, and many more) provides insights into feature collapse, training dynamics, and downstream performance. Data flow as dictionaries through model components, metrics, and callbacks, making any intermediate value accessible and debuggable. With `stable-pretraining`: track everything, debug faster, iterate sooner.
-
-Join our Discord: https://discord.gg/8M6hT39X
 
 ## How?
 
@@ -409,16 +397,3 @@ The library is not yet available on PyPI. You can install it from the source cod
         ```
       </details>
 
-## Ways You Can Contribute:
-
-- If you'd like to contribute new features, bug fixes, or improvements to the documentation, please refer to our [contributing guide](https://rbalestr-lab.github.io/stable-pretraining.github.io/dev/contributing.html) for detailed instructions on how to get started.
-
-- You can also contribute by adding new methods, datasets, or configurations that improve the current performance of a method in the [benchmark section](https://github.com/rbalestr-lab/stable-pretraining/tree/main/benchmarks).
-
-## Contributors
-
-Core contributors (in order of joining the project):
-- [Randall Balestriero](https://github.com/RandallBalestriero)
-- [Hugues Van Assel](https://github.com/huguesva)
-- [Sami Bou Ghanem](https://github.com/sami-bg)
-- [Lucas Maes](https://github.com/lucas-maes)
